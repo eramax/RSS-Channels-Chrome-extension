@@ -1,10 +1,10 @@
 {
     "manifest_version": 2,
-    "name": "Youtube RSS",
-    "description": "subscribe to youtube channels by rss",
+    "name": "Channel RSS",
+    "description": "find video channel rss",
     "version": "1.0.0",
     "icons": {
-        "128": "icon128.png"
+        "128": "rss128.png"
     },
     "background": {
         "scripts": ["bg.js"]
@@ -14,7 +14,7 @@
         "js": ["content.js"]
     }],
     "browser_action": {
-        "default_icon": "icon19.png",
+        "default_icon": "rss19.png",
         "default_title": ""
     },
     "permissions": ["activeTab"]
